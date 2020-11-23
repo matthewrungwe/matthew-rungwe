@@ -7,14 +7,13 @@ import Main from './components/main/main';
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className="header">
         <Header />
       </header>
       
-      <main>
+      <main className="main">
         <Main />
       </main>
-
     </div>
   );
 }
