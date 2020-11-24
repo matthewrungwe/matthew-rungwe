@@ -60,6 +60,9 @@
   font-size: 0.9rem;
 }
 /* Header end */
+.about-wrap p {
+  color: orange;
+}
 /* Contact */
 .contact-wrap .heading {
   width: 80%;
