@@ -1,14 +1,17 @@
+// Components
+import Contact from './contact/contact';
+import Footer from '../footer/footer';
+
 // Styles
 import './main.less';
-
-// Components
-import Footer from '../footer/footer';
 
 function Main() {
     return (
         <div>
-            <p>Main</p>
-
+            <section>
+                <Contact />
+            </section>
+    
             <Footer />
         </div>
     );
