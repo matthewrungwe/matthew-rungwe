@@ -5,7 +5,7 @@ import Footer from '../footer/footer';
 import './header.less';
 
 // Images
-import profilePic from '../../assests/images/profile/matthew.JPG';
+import profilePic from '../../assests/images/profile/matthew.png';
 
 const profile = {
     name: 'Matthew Rungwe',
