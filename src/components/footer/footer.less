@@ -2,7 +2,7 @@
 .footer {
     
     .para {
-        color: #54585a;
+        color: @palette[fg];
         text-align: center;
         padding: 30px 0;
 
@@ -13,8 +13,8 @@
 
             &:hover {
                 // color: #77797b;
-                color: #49FCD4;
-                background-color: #44494b;
+                color: @palette[bg];
+                background-color: @palette[fg_alt];
                 text-decoration: underline;
             }
         }        

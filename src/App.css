@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Raleway&family=Poppins&family=Roboto&family=Sacramento&family=Source+Sans+Pro&family=Tangerine&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -5,18 +6,58 @@
 /* Page */
 .App {
   display: flex;
+  font-family: 'Poppins', 'Source Sans Pro', 'Roboto', sans-serif;
 }
 .App .header,
 .App .main {
   flex: 1;
 }
 @media screen and (max-width: 62rem) {
+  /* Medium viewport */
   .App {
     display: flex;
     flex-flow: column;
   }
 }
 /* Page end */
+/* Header */
+.header-wrap {
+  height: 100vh;
+  padding: 0 50px;
+  padding-top: 100px;
+  background-color: #49FCD4;
+}
+.header-wrap .short-profile {
+  text-align: right;
+}
+.header-wrap .short-profile .profile-pic .pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.header-wrap .short-profile .download-profile-bio {
+  display: flex;
+}
+.header-wrap .short-profile .download-profile-bio .download {
+  flex: 1;
+}
+.header-wrap .short-profile .download-profile-bio .profile-bio {
+  flex: 1;
+  color: #54585a;
+  width: 100%;
+}
+.header-wrap .short-profile .download-profile-bio .profile-bio p {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+.header-wrap .short-profile .download-profile-bio .profile-bio p span {
+  font-family: 'Great Vibes';
+  font-weight: 500;
+}
+.header-wrap .short-profile .download-profile-bio .profile-bio p:nth-child(2) {
+  font-size: 0.9rem;
+}
+/* Header end */
 /* Footer */
 .footer .para {
   color: #54585a;

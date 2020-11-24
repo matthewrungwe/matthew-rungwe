@@ -1,0 +1,48 @@
+/* Header */
+.header-wrap {
+    height: 100vh;
+    padding: 0 50px;
+    padding-top: 100px;
+    background-color: @palette[bg];
+
+    .short-profile {
+        text-align: right;
+
+        .profile-pic {
+            .pic{
+                width: 150px;
+                height: 150px;
+                border-radius: 100%;
+            }  
+        }
+    
+        .download-profile-bio {
+            display: flex;
+
+            .download {
+                flex: 1;
+            }
+
+            .profile-bio {
+                flex: 1;
+                color: @palette[fg];
+                width: 100%;
+    
+                p {
+                    padding: 10px 0;
+                    font-size: 1.2rem;
+                    
+                    span {
+                        font-family: 'Great Vibes';
+                        font-weight: 500;
+                    }
+
+                    &:nth-child(2) {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Header end */
