@@ -12,7 +12,7 @@ function Contact() {
                 <div className="input-block-pair">
                     <div className="input-block">
                         <label>
-                            <input type="text" name="name" placeholder="Name"/>
+                            <input type="text" name="name" placeholder="Name" required />
                         </label>
                     </div>
 
