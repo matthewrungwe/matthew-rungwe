@@ -65,6 +65,11 @@
   margin: 20px auto;
   color: #54585a;
 }
+.contact-wrap .heading p {
+  font-size: 0.8rem;
+  padding: 5px;
+  font-style: italic;
+}
 .contact-wrap #contact-form {
   width: 80%;
   margin: 0 auto;

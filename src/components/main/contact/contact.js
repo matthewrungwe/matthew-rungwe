@@ -6,7 +6,7 @@ function Contact() {
         <div className="contact-wrap">
             <div className="heading">
                 <h2>Get in touch</h2>
-                <p>How can I help?</p>
+                <p>How can I help? You can leave a message and I will get back to you.</p>
             </div>
             <form id="contact-form">
                 <div className="input-block-pair">
