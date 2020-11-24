@@ -35,6 +35,19 @@ function Contact() {
                     </label>
                 </div>
             </form>
+
+            <div className="contact-details">
+                <div className="detail number">
+                    <p>
+                        <a href="tel:+27842563451">+(27) 84 256 3451</a>
+                    </p>
+                </div>
+                <div className="detail email">
+                    <p>
+                        <a href="mailto:matthewrungwe@gmail.com">matthewrungwe@gmail.com</a>
+                    </p>
+                </div>
+            </div>
         </div>
     );
 }
