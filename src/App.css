@@ -60,8 +60,18 @@
   font-size: 0.9rem;
 }
 /* Header end */
-.about-wrap p {
-  color: orange;
+.about-wrap {
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+.about-wrap .heading,
+.about-wrap .info {
+  width: 80%;
+  margin: 0 auto;
+  color: #54585a;
+}
+.about-wrap .heading span {
+  font-family: 'Great Vibes';
 }
 /* Contact */
 .contact-wrap .heading {
