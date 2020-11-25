@@ -1,0 +1,137 @@
+/* Portfolio */
+.portfolio-wrap {
+    padding-bottom: 50px;
+
+    .heading {
+        width: 80%;
+        margin: 0 auto;
+        color: @palette[fg];
+        padding-bottom: 20px;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 15px;
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+
+        .project {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .overlay {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(84, 88, 90, 0.5);
+        }
+
+        p {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .one {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-image: url('./assests/images/portfolio/library-min.jpg');
+            background-color: #00CA85;
+        }
+
+        .two {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-image: url('./assests/images/portfolio/game-min.jpg');
+            background-color: orange;
+        }
+
+        .three {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-image: url('./assests/images/portfolio/signup-min.jpg');
+            background-color: purple;
+        }
+
+        .four {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-image: url('./assests/images/portfolio/to-do-min.jpg');
+            background-color: #0085CA;
+        }
+    }
+
+    .portfolio-link {
+        width: fit-content;
+        margin: 0 auto;
+        padding-top: 50px;
+
+        a {
+            color: @palette[fg];
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 2px 2px 10px @palette[fg_alt];
+            border-radius: 5px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 48rem) {
+    .portfolio-wrap {
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-gap: 10px;
+            height: 450px;
+    
+            .one {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+    
+            .two {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+    
+            .three {
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+    
+            .four {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+        }
+    }
+}
+/* Portfolio end */

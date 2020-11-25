@@ -1,5 +1,6 @@
 // Components
 import About from './about/about';
+import Portfolio from './portfolio/portfolio';
 import Contact from './contact/contact';
 import Footer from '../footer/footer';
 
@@ -12,6 +13,11 @@ function Main() {
             <section>
                 <About />
             </section>
+
+            <section>
+                <Portfolio />
+            </section>
+
             <section>
                 <Contact />
             </section>
