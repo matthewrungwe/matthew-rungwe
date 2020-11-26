@@ -6,6 +6,11 @@ import './header.less';
 
 // Images
 import profilePic from '../../assests/images/profile/matthew.png';
+import twitterIcon from '../../assests/images/icons/twitter.png';
+import dribbbleIcon from '../../assests/images/icons/dribbble.png';
+import githubIcon from '../../assests/images/icons/github-2.png';
+import linkedinIcon from '../../assests/images/icons/linkedin.png';
+import mailIcon from '../../assests/images/icons/mail.png';
 
 const profile = {
     name: 'Matthew Rungwe',
@@ -21,10 +26,6 @@ function Header() {
                 <div className="profile-pic">
                     <img className="pic" src={profile.pic.src} alt="Matthew's profile" />
                 </div>            
-                <div className="download-profile-bio">
-                    <div className="download">
-
-                    </div>
                     <div className="profile-bio">
                     <p>
                         Hi, I'm <span>{profile.name}</span>, a Front-End Developer 
@@ -36,12 +37,27 @@ function Header() {
                         interactive web applications.
                     </p>
                 </div>
-                </div>
             </article>
 
             <article className="media-copyright">
                 <div className="media">
-
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com"><img src={twitterIcon} /></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com"><img src={linkedinIcon} /></a>
+                        </li>
+                        <li>
+                            <a href="https://dribbble.com"><img src={dribbbleIcon} /></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/matthewrungwe"><img src={githubIcon} /></a>
+                        </li>  
+                        <li>
+                            <a href="mailto:matthewrungwe@gmail.com"><img src={mailIcon} /></a>
+                        </li>
+                    </ul>
                 </div>
                 <div className="copyright">
                     <Footer />

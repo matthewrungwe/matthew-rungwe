@@ -22,7 +22,8 @@
 /* Page end */
 /* Header */
 .header-wrap {
-  height: 100vh;
+  max-width: 100%;
+  height: 100%;
   padding: 0 50px;
   padding-top: 100px;
   background-color: #49FCD4;
@@ -30,34 +31,68 @@
   background-attachment: fixed;
 }
 .header-wrap .short-profile {
-  text-align: right;
+  text-align: center;
+  position: fixed;
+  left: 0;
 }
 .header-wrap .short-profile .profile-pic .pic {
   width: 150px;
   height: 150px;
   border-radius: 100%;
 }
-.header-wrap .short-profile .download-profile-bio {
-  display: flex;
-}
-.header-wrap .short-profile .download-profile-bio .download {
-  flex: 1;
-}
-.header-wrap .short-profile .download-profile-bio .profile-bio {
-  flex: 1;
+.header-wrap .short-profile .profile-bio {
   color: #54585a;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
 }
-.header-wrap .short-profile .download-profile-bio .profile-bio p {
+.header-wrap .short-profile .profile-bio p {
   padding: 10px 0;
   font-size: 1.2rem;
 }
-.header-wrap .short-profile .download-profile-bio .profile-bio p span {
+.header-wrap .short-profile .profile-bio p span {
   font-family: 'Great Vibes';
   font-weight: 500;
 }
-.header-wrap .short-profile .download-profile-bio .profile-bio p:nth-child(2) {
+.header-wrap .short-profile .profile-bio p:nth-child(2) {
   font-size: 0.9rem;
+}
+.header-wrap .media-copyright {
+  position: fixed;
+  top: 450px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+.header-wrap .media-copyright .media {
+  width: 300px;
+  margin: 0 auto;
+}
+.header-wrap .media-copyright .media ul {
+  display: flex;
+  list-style-type: none;
+}
+.header-wrap .media-copyright .media li {
+  flex: 1;
+}
+.header-wrap .media-copyright .media img {
+  width: 30px;
+}
+@media screen and (max-width: 62rem) {
+  .header-wrap {
+    height: 100vh;
+  }
+  .header-wrap .short-profile {
+    position: static;
+  }
+  .header-wrap .short-profile .profile-bio {
+    max-width: 350px;
+    min-width: 80%;
+    margin: 0 auto;
+  }
+  .header-wrap .media-copyright {
+    position: relative;
+    top: 50px;
+    min-width: fit-content;
+  }
 }
 /* Header end */
 .about-wrap {
