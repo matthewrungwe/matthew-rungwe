@@ -43,19 +43,19 @@ function Header() {
                 <div className="media">
                     <ul>
                         <li>
-                            <a href="https://twitter.com"><img src={twitterIcon} /></a>
+                            <a href="https://twitter.com" target="_blank" rel="noreferrer"><img src={twitterIcon} alt="Twitter icon" /></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com"><img src={linkedinIcon} /></a>
+                            <a href="https://linkedin.com" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="LinkedIn icon" /></a>
                         </li>
                         <li>
-                            <a href="https://dribbble.com"><img src={dribbbleIcon} /></a>
+                            <a href="https://dribbble.com" target="_blank" rel="noreferrer"><img src={dribbbleIcon} alt="Dribbble icon" /></a>
                         </li>
                         <li>
-                            <a href="https://github.com/matthewrungwe"><img src={githubIcon} /></a>
+                            <a href="https://github.com/matthewrungwe" target="_blank" rel="noreferrer"><img src={githubIcon} alt="GitHub icon" /></a>
                         </li>  
                         <li>
-                            <a href="mailto:matthewrungwe@gmail.com"><img src={mailIcon} /></a>
+                            <a href="mailto:matthewrungwe@gmail.com" target="_blank" rel="noreferrer"><img src={mailIcon} alt="Mail icon" /></a>
                         </li>
                     </ul>
                 </div>
