@@ -95,6 +95,7 @@
   }
 }
 /* Header end */
+/* About */
 .about-wrap {
   padding-top: 20px;
   margin-bottom: 50px;
@@ -105,9 +106,13 @@
   margin: 0 auto;
   color: #54585a;
 }
+.about-wrap .heading {
+  padding-bottom: 20px;
+}
 .about-wrap .heading span {
   font-family: 'Great Vibes';
 }
+/* About end */
 .education-wrap {
   padding-bottom: 30px;
   color: #54585a;
