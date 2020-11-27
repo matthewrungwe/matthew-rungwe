@@ -226,6 +226,9 @@
   }
 }
 /* Portfolio end */
+.blog-wrap p {
+  color: orange;
+}
 /* Contact */
 .contact-wrap .heading {
   width: 80%;

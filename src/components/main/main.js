@@ -1,6 +1,7 @@
 // Components
 import About from './about/about';
 import Portfolio from './portfolio/portfolio';
+import Blog from './blog/blog';
 import Contact from './contact/contact';
 import Footer from '../footer/footer';
 
@@ -16,6 +17,10 @@ function Main() {
 
             <section>
                 <Portfolio />
+            </section>
+
+            <section>
+                <Blog />
             </section>
 
             <section>
