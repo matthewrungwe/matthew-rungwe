@@ -1,0 +1,63 @@
+.education-wrap {
+    padding-bottom: 30px;
+    color: @palette[fg];
+
+    .heading {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .institution {
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        box-shadow: 2px 2px 8px @palette[fg];
+        padding: 10px 20px;
+        border-radius: 5px;
+
+        .institution-program-name {
+            padding-bottom: 10px;
+        }
+
+        .program-duration {
+            padding-bottom: 10px;
+        }
+
+       .horizontal-divider {
+            width: fit-content;
+            margin: 0 auto;
+
+            .divider-wrap {
+                display: inline;
+
+                .circle {
+                    float: left;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 100%;
+                    background-color: @palette[bg];
+                }
+
+                .line {
+                    float: left;
+                    width: 250px;
+                    margin-top: 4px;
+                    border: 0.5px solid @palette[fg_alt];
+                }
+            }
+       }
+
+       .program-details {
+           clear: both;
+           padding-top: 10px;
+
+            p {
+                text-align: justify;
+                padding-bottom: 10px;
+            }
+       }
+    }
+
+}

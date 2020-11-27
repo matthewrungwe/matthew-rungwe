@@ -108,6 +108,58 @@
 .about-wrap .heading span {
   font-family: 'Great Vibes';
 }
+.education-wrap {
+  padding-bottom: 30px;
+  color: #54585a;
+}
+.education-wrap .heading {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.education-wrap .institution {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  box-shadow: 2px 2px 8px #54585a;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.education-wrap .institution .institution-program-name {
+  padding-bottom: 10px;
+}
+.education-wrap .institution .program-duration {
+  padding-bottom: 10px;
+}
+.education-wrap .institution .horizontal-divider {
+  width: fit-content;
+  margin: 0 auto;
+}
+.education-wrap .institution .horizontal-divider .divider-wrap {
+  display: inline;
+}
+.education-wrap .institution .horizontal-divider .divider-wrap .circle {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #49FCD4;
+}
+.education-wrap .institution .horizontal-divider .divider-wrap .line {
+  float: left;
+  width: 250px;
+  margin-top: 4px;
+  border: 0.5px solid #44494b;
+}
+.education-wrap .institution .program-details {
+  clear: both;
+  padding-top: 10px;
+}
+.education-wrap .institution .program-details p {
+  text-align: justify;
+  padding-bottom: 10px;
+}
 /* Portfolio */
 .portfolio-wrap {
   padding-bottom: 50px;

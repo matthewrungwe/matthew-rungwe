@@ -1,5 +1,6 @@
 // Components
 import About from './about/about';
+import Education from './education/education';
 import Portfolio from './portfolio/portfolio';
 import Blog from './blog/blog';
 import Contact from './contact/contact';
@@ -13,6 +14,10 @@ function Main() {
         <div>
             <section>
                 <About />
+            </section>
+
+            <section>
+                <Education />
             </section>
 
             <section>
