@@ -112,6 +112,9 @@
 .about-wrap .heading span {
   font-family: 'Great Vibes';
 }
+.about-wrap .info p {
+  text-align: justify;
+}
 /* About end */
 .education-wrap {
   padding-bottom: 30px;
