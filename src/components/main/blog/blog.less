@@ -1,5 +1,139 @@
 .blog-wrap {
-    p {
-        color: orange;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+    .heading {
+        color: @palette[fg];
+    }
+
+    .featured-article {
+        margin-top: 20px;
+
+        .article {
+            display: flex;
+
+            .article-img {
+                flex: 1.2;
+            }
+            .article-content {
+                flex: 0.8;
+            }
+
+            .article-img {
+               
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+            }
+
+            .article-content {
+                padding-left: 10px;
+
+                a {
+                    color: @palette[fg]
+                }
+
+                p {
+                    color: @palette[fg_alt];
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    .recent-articles {
+        display: flex;
+        margin-top: 20px;
+
+        .article {
+            flex: 1;
+        }
+
+        .one {
+            margin-right: 10px;
+        }
+
+        .article {
+            
+            .article-img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    height: 150px;
+                }
+            }
+
+            .article-content {
+                a {
+                    color: @palette[fg];
+
+                    h3 {
+                        height: 50px;
+                    }
+                }
+
+                p {
+                    color: @palette[fg_alt];
+                    font-size: 0.9rem;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    .blog-link {
+        width: fit-content;
+        margin: 0 auto;
+        padding-top: 50px;
+
+        a {
+            color: @palette[fg];
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 2px 2px 10px @palette[fg_alt];
+            border-radius: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 48rem) { /* Small view port */
+    .blog-wrap {
+        .featured-article {
+
+            .article {
+                display: flex;
+                flex-flow: column;
+            }
+        }
+
+        .recent-articles {
+
+            .article {
+
+                .article-img {
+
+                    img {
+                        height: 100px;
+                    }
+                }
+
+                .article-content {
+                    a {
+
+                        h3 {
+                            height: fit-content;
+                        }
+                    }
+                   
+                    p {
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }
