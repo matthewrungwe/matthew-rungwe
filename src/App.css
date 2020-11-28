@@ -168,6 +168,41 @@
   text-align: justify;
   padding-bottom: 10px;
 }
+.skills-wrap .heading {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.skills-wrap .heading h2 {
+  color: #54585a;
+}
+.skills-wrap .skill {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.skills-wrap .skill h3 {
+  color: #54585a;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.skills-wrap .skill h3 span {
+  background-color: #44494b;
+  padding: 4px 5px;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 1.1rem;
+}
+.skills-wrap .skill .skill-bar {
+  height: 40px;
+  width: 100%;
+  background-color: #54585a;
+}
+.skills-wrap .skill .skill-bar .skill-level {
+  width: 80%;
+  height: 100%;
+  background-color: #49FCD4;
+}
 /* Portfolio */
 .portfolio-wrap {
   padding-bottom: 50px;
