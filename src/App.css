@@ -168,6 +168,10 @@
   text-align: justify;
   padding-bottom: 10px;
 }
+/* Skills */
+.skills-wrap {
+  padding-bottom: 50px;
+}
 .skills-wrap .heading {
   width: 80%;
   margin: 0 auto;
@@ -181,12 +185,12 @@
   margin: 0 auto;
   padding-bottom: 20px;
 }
-.skills-wrap .skill h3 {
+.skills-wrap .skill h4 {
   color: #54585a;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-.skills-wrap .skill h3 span {
+.skills-wrap .skill h4 span {
   background-color: #44494b;
   padding: 4px 5px;
   border-radius: 100%;
@@ -203,6 +207,38 @@
   height: 100%;
   background-color: #49FCD4;
 }
+.skills-wrap .subheading {
+  color: #54585a;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.skills-wrap .tools {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.skills-wrap .tools .tool-set {
+  flex: 1;
+  display: flex;
+}
+.skills-wrap .tools .tool-set .tool {
+  flex: 1;
+}
+.skills-wrap .tools .tool-set .tool .icon {
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.skills-wrap .tools .tool-set .tool .icon img {
+  width: 60px;
+  padding: 10px;
+}
+.skills-wrap .tools .tool-set .tool .icon:hover {
+  background-color: rgba(84, 88, 90, 0.2);
+}
+/* Skills end */
 /* Portfolio */
 .portfolio-wrap {
   padding-bottom: 50px;

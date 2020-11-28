@@ -1,4 +1,6 @@
+/* Skills */
 .skills-wrap {
+    padding-bottom: 50px;
 
     .heading {
         width: 80%;
@@ -16,7 +18,7 @@
         margin: 0 auto;
         padding-bottom: 20px;
         
-        h3 {
+        h4 {
             color: @palette[fg];
             padding-bottom: 10px;
             text-transform: uppercase;
@@ -42,8 +44,45 @@
                 height: 100%;
                 background-color: @palette[bg];
             }
-        }
+        }   
+    }
 
-        
+    .subheading {
+        color: @palette[fg];
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .tools {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+
+        .tool-set {
+            flex: 1;
+            display: flex;
+
+            .tool {
+                flex: 1;
+
+                .icon {
+                    width: fit-content;
+                    margin: 0 auto;
+                    border-radius: 100%;
+
+                    img {
+                        width: 60px;
+                        padding: 10px;
+                    }
+
+                    &:hover {
+                        background-color: rgba(84, 88, 90, 0.2);
+                    }
+                }
+            }
+        }
     }
 }
+/* Skills end */
