@@ -106,12 +106,16 @@ function Skills() {
                 <div className="tool-set">
                     <div className="tool">
                         <div className="icon">
-                            <img src={githubIcon} alt="" />
+                            <a href="https://www.github.com" target="_blank" rel="noreferrer" >
+                                <img src={githubIcon} alt="" />
+                            </a>
                         </div>
                     </div>
                     <div className="tool">
                         <div className="icon">
-                            <img src={vscodeIcon} alt="" />
+                            <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer" >
+                                <img src={vscodeIcon} alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -119,12 +123,16 @@ function Skills() {
                 <div className="tool-set">
                     <div className="tool">
                         <div className="icon">
-                            <img src={firebaseIcon} alt="" />
+                            <a href="https://www.firebase.google.com" target="_blank" rel="noreferrer" >
+                                <img src={firebaseIcon} alt="" />
+                            </a>
                         </div>
                     </div>
                     <div className="tool">
                         <div className="icon">
-                            <img src={figmaIcon} alt="" />
+                            <a href="https://www.figma.com" target="_blank" rel="noreferrer" >
+                                <img src={figmaIcon} alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>

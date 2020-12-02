@@ -192,10 +192,9 @@
 }
 .skills-wrap .skill h4 span {
   background-color: #44494b;
-  padding: 4px 5px;
+  padding: 4px 8px;
   border-radius: 100%;
   color: #fff;
-  font-size: 1.1rem;
 }
 .skills-wrap .skill .skill-bar {
   height: 40px;
@@ -236,7 +235,10 @@
   padding: 10px;
 }
 .skills-wrap .tools .tool-set .tool .icon:hover {
-  background-color: rgba(84, 88, 90, 0.2);
+  background-color: rgba(73, 252, 212, 0.5);
+}
+.skills-wrap .tools .tool-set .tool .icon:hover img {
+  width: 62px;
 }
 /* Skills end */
 /* Portfolio */
