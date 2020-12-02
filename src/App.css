@@ -272,7 +272,9 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: rgba(84, 88, 90, 0.5);
+}
+.portfolio-wrap .projects a {
+  text-decoration: none;
 }
 .portfolio-wrap .projects p {
   color: #fff;
@@ -284,7 +286,13 @@
   grid-row-start: 1;
   grid-row-end: 3;
   background-image: url('./assests/images/portfolio/library-min.jpg');
-  background-color: #00CA85;
+}
+.portfolio-wrap .projects .one .overlay {
+  background-color: rgba(231, 183, 136, 0.5);
+}
+.portfolio-wrap .projects .one .overlay:hover {
+  background-color: unset;
+  transition: 1;
 }
 .portfolio-wrap .projects .two {
   grid-column-start: 2;
@@ -292,7 +300,13 @@
   grid-row-start: 1;
   grid-row-end: 2;
   background-image: url('./assests/images/portfolio/game-min.jpg');
-  background-color: orange;
+}
+.portfolio-wrap .projects .two .overlay {
+  background-color: rgba(135, 197, 164, 0.5);
+}
+.portfolio-wrap .projects .two .overlay:hover {
+  background-color: unset;
+  transition: 1;
 }
 .portfolio-wrap .projects .three {
   grid-column-start: 2;
@@ -300,7 +314,13 @@
   grid-row-start: 2;
   grid-row-end: 3;
   background-image: url('./assests/images/portfolio/signup-min.jpg');
-  background-color: purple;
+}
+.portfolio-wrap .projects .three .overlay {
+  background-color: rgba(142, 169, 232, 0.5);
+}
+.portfolio-wrap .projects .three .overlay:hover {
+  background-color: unset;
+  transition: 1;
 }
 .portfolio-wrap .projects .four {
   grid-column-start: 3;
@@ -308,7 +328,13 @@
   grid-row-start: 1;
   grid-row-end: 3;
   background-image: url('./assests/images/portfolio/to-do-min.jpg');
-  background-color: #0085CA;
+}
+.portfolio-wrap .projects .four .overlay {
+  background-color: rgba(236, 141, 129, 0.5);
+}
+.portfolio-wrap .projects .four .overlay:hover {
+  background-color: unset;
+  transition: 1;
 }
 .portfolio-wrap .portfolio-link {
   width: fit-content;
