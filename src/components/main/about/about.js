@@ -9,11 +9,17 @@ function About() {
             </div>
             <div className="info">
                 <p>
-                    My journey as a Front-End Developer started of as
-                    a curiosity and grew into a passion. Since then, I 
-                    have managed to grow my skills this has allowed me 
-                    to become a freelancer, a mentor and a content writer. 
+                    My journey as a Front-End Developer started off not too 
+                    long ago. I was curious about the web and how it worked.
+                    The curiosity grew into a passion and the  passion into 
+                    a career.  
                 </p>
+
+                <p>
+                    I have managed to grow my skills, secure a position as 
+                    a freelancer, become a mentor and be a writer of web content.
+                </p>
+
                 <p>
                     I'm quietly confident, driven and always learning. I 
                     am constantly growing and giving back to my community  
