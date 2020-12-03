@@ -8,7 +8,7 @@ function Contact() {
                 <h2>Get in touch</h2>
                 <p>How can I help? You can leave a message and I will get back to you.</p>
             </div>
-            <form id="contact-form" action="POST" method="post" data-netlify="true" >
+            <form id="contact-form" action="" method="post" data-netlify="true" >
                 <input type="hidden" name="form-name" value="Contact Form" />
                 <div className="input-block-pair">
                     <div className="input-block">
