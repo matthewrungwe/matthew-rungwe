@@ -8,7 +8,7 @@ function Contact() {
                 <h2>Get in touch</h2>
                 <p>How can I help? You can leave a message and I will get back to you.</p>
             </div>
-            <form id="contact-form" name="contact-form" method="POST" data-netlify="true">
+            <form id="contact-form" name="contact-form" action="POST" netlify >
                 <div className="input-block-pair">
                     <div className="input-block">
                         <label>
@@ -24,7 +24,7 @@ function Contact() {
                 </div>
 
                 <div className="textarea-block">
-                    <textarea placeholder="Message">
+                    <textarea placeholder="Message" name="message">
 
                     </textarea>
                 </div>
