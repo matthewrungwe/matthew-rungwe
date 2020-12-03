@@ -7,7 +7,7 @@ import './header.less';
 // Images
 import profilePic from '../../assests/images/profile/matthew.png';
 import twitterIcon from '../../assests/images/icons/twitter.png';
-import dribbbleIcon from '../../assests/images/icons/dribbble.png';
+import devIcon from '../../assests/images/icons/dev.png';
 import githubIcon from '../../assests/images/icons/github-2.png';
 import linkedinIcon from '../../assests/images/icons/linkedin.png';
 import mailIcon from '../../assests/images/icons/mail.png';
@@ -49,7 +49,7 @@ function Header() {
                             <a href="https://linkedin.com" target="_blank" rel="noreferrer"><img src={linkedinIcon} alt="LinkedIn icon" /></a>
                         </li>
                         <li>
-                            <a href="https://dribbble.com" target="_blank" rel="noreferrer"><img src={dribbbleIcon} alt="Dribbble icon" /></a>
+                            <a href="https://dev.to/matthewrungwe" target="_blank" rel="noreferrer"><img src={devIcon} alt="Dev icon" /></a>
                         </li>
                         <li>
                             <a href="https://github.com/matthewrungwe" target="_blank" rel="noreferrer"><img src={githubIcon} alt="GitHub icon" /></a>
