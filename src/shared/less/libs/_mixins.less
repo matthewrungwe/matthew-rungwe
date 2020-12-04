@@ -1,8 +1,12 @@
+// Center Content
+// centers the container of content relative to the width provided.
 .center-content (@width: 80%, @margin: 0) {
     width: @width;
     margin: @margin auto;
 }
 
+// Transparency
+// creates a background color with an alpha.
 .transparency (@color, @opacity) {
-    background-color: @color;
+    background-color: fadeout(@color, @opacity);
 }
