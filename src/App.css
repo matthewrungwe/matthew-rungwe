@@ -235,7 +235,7 @@
   padding: 10px;
 }
 .skills-wrap .tools .tool-set .tool .icon:hover {
-  background-color: rgba(73, 252, 212, 0.5);
+  background-color: rgba(73, 252, 212, 0.1);
 }
 .skills-wrap .tools .tool-set .tool .icon:hover img {
   width: 62px;
