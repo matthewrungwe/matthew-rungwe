@@ -33,7 +33,7 @@ function Header() {
                     </p>
 
                     <p>
-                        I Design and Develop mordern, repsonsive and 
+                        I Design and Develop modern, repsonsive and 
                         interactive web applications.
                     </p>
                 </div>
