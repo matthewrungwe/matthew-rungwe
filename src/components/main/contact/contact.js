@@ -1,6 +1,10 @@
 // Styles
 import './contact.less';
 
+// Images
+import mailIcon from '../../../assests/images/icons/mail.png';
+import phoneIcon from '../../../assests/images/icons/phone.png';
+
 function Contact() {
     return (
         <div className="contact-wrap">
@@ -32,18 +36,21 @@ function Contact() {
 
                 <div className="submit-block">
                     <label>
-                        <input type="submit" value="Send Message" />
+                        <button type="submit">Send Message</button>
                     </label>
                 </div>
             </form>
 
             <div className="contact-details">
                 <div className="detail number">
+                    <img className="phone-icon" src={phoneIcon} alt="" />
                     <p>
                         <a href="tel:+27842563451">+(27) 84 256 3451</a>
                     </p>
                 </div>
+                <br />
                 <div className="detail email">
+                    <img className="mail-icon" src={mailIcon} alt="" />
                     <p>
                         <a href="mailto:matthewrungwe@gmail.com">matthewrungwe@gmail.com</a>
                     </p>

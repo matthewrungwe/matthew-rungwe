@@ -561,10 +561,11 @@
   width: 90%;
   height: 40px;
   font-size: 1.1rem;
+  font-family: inherit;
   color: #54585a;
   margin: 0 auto;
   padding-left: 10px;
-  border: 1px solid whitesmoke;
+  border: 1px solid #44494b;
   border-radius: 5px;
   outline-color: #49FCD4;
 }
@@ -578,23 +579,27 @@
   font-family: inherit;
   font-size: 1rem;
   padding: 3px 0 0 10px;
-  border: 1px solid whitesmoke;
+  border: 1px solid #44494b;
   border-radius: 5px;
   outline-color: #49FCD4;
 }
 .contact-wrap .submit-block {
   margin-top: 20px;
 }
-.contact-wrap .submit-block input {
+.contact-wrap .submit-block button {
   background-color: #49FCD4;
   color: #54585a;
-  font-weight: 600px;
   font-size: 1rem;
+  font-family: inherit;
   height: 40px;
-  padding: 10px;
+  padding: 8px;
   border: none;
   border-radius: 5px;
   outline: none;
+}
+.contact-wrap .submit-block button:hover {
+  font-size: 1.009rem;
+  background-color: rgba(73, 252, 212, 0.6);
 }
 .contact-wrap .contact-details {
   width: 80%;
@@ -603,6 +608,22 @@
 }
 .contact-wrap .contact-details .detail {
   padding: 5px;
+  display: inline-block;
+}
+.contact-wrap .contact-details .detail img {
+  float: left;
+}
+.contact-wrap .contact-details .detail .phone-icon {
+  width: 22px;
+  height: 22px;
+}
+.contact-wrap .contact-details .detail .mail-icon {
+  width: 20px;
+  height: 20px;
+}
+.contact-wrap .contact-details .detail p {
+  float: left;
+  margin-left: 10px;
 }
 .contact-wrap .contact-details .detail a {
   color: #54585a;

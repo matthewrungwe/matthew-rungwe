@@ -32,10 +32,11 @@
             width: 90%;
             height: 40px;
             font-size: 1.1rem;
+            font-family: inherit;
             color: @palette[fg];
             margin: 0 auto;
             padding-left: 10px;
-            border: 1px solid whitesmoke;
+            border: 1px solid @palette[accent8];
             border-radius: 5px;
             outline-color: @palette[bg];
 
@@ -52,7 +53,7 @@
             font-family: inherit;
             font-size: 1rem;
             padding: 3px 0 0 10px;
-            border: 1px solid whitesmoke;
+            border: 1px solid @palette[accent8];
             border-radius: 5px;
             outline-color: @palette[bg];
             
@@ -62,16 +63,21 @@
     .submit-block {
         margin-top: 20px;
 
-        input {
+        button {
             background-color: @palette[bg];
             color: @palette[fg];
-            font-weight: 600px;
             font-size: 1rem;
+            font-family: inherit;
             height: 40px;
-            padding: 10px; 
+            padding: 8px; 
             border: none;
             border-radius: 5px;
-            outline: none;
+            outline: none; 
+            
+            &:hover {
+                font-size: 1.009rem;
+                background-color: rgba(73, 252, 212, 0.6);
+            }
         }
     }
 
@@ -81,8 +87,29 @@
          margin-top: 20px;
 
          .detail {
-             padding: 5px;
-             
+            padding: 5px;
+            display: inline-block;
+
+             img {
+                float: left;
+                // background-color: @palette[bg];
+             }
+
+             .phone-icon {
+                 width: 22px;
+                 height: 22px;
+             }
+
+             .mail-icon {
+                 width: 20px;
+                 height: 20px;
+             }
+
+             p {
+                 float: left;
+                 margin-left: 10px;
+             }
+
              a {
                 color: @palette[fg];
                 text-decoration-color: @palette[bg];
