@@ -14,7 +14,7 @@ I believe every developer out there needs to have a digital resume to showcase w
 
 **Built with**
 
-* [React]()
-* [Less]()
+* [React](https://www.reactjs.org)
+* [Less](https://www.lesscss.org)
 * [HTML]()
-* [CSS]()
+* [Figma](https://www.figma.com)
